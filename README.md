@@ -1,5 +1,5 @@
 # ReverseALinkedList
-This is program that which contains the 'reverseList' function that serves to reverse then linked list itself
+This is simple program that which contains the 'reverseList' function that serves to reverse then linked list itself
 
 Structures:
 - ListNode: has int item and struct listnode* next field, item is the data stored in the node and next is the pointer to the next node.
