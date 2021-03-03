@@ -29,13 +29,13 @@ int main()
     scanf("%d", &increment_count);
     for (i = 0; i < ll_length; i+=increment_count)
 		insertion(ll, i);
-	puts("\nThis is the normal list:\n");
-	printList(ll);
-	puts("\n");
-	puts("\nThis is the reversed list\n");
-	reverseList(ll);
-	printList(ll);
-	puts("\n");
+    puts("\nThis is the normal list:\n");
+    printList(ll);
+    puts("\n");
+    puts("\nThis is the reversed list\n");
+    reverseList(ll);
+    printList(ll);
+    puts("\n");
     return 0;
 }
 void insertion (LinkedList *ll, int value)
