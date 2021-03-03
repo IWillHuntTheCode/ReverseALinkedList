@@ -78,7 +78,6 @@ void reverseList(LinkedList* ll)
 		nxt = current -> next;
 		current -> next = prev;
 		prev = current;
-
 		current = nxt;
 	}		
 	ll -> head = prev;
